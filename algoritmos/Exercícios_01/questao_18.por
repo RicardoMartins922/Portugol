@@ -12,10 +12,11 @@ programa
 
 		escreva("Insira a temperatura em Celsius: ")
 		leia(celsius)
+		limpa()
 
-		fahrenheit=1.8*(celsius+32)
+		fahrenheit = 1.8*(celsius+32)
 
-		escreva("A temperatura informada é em Fahrenheit = ",mat.arredondar(fahrenheit,2),"\n")
+		escreva("A temperatura informada é em Fahrenheit = "+mat.arredondar(fahrenheit,2)+"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 

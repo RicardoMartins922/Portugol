@@ -6,7 +6,7 @@ programa
 	 *programa deve fazer as conversões e mostrá-las.
 	 */
 
-	 inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{

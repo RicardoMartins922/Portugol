@@ -5,9 +5,10 @@ programa
 	//salário final.
 
 	inclua biblioteca Matematica --> mat
+
 	funcao inicio()
 	{
-		real salario_fixo=0.00,salario_final=0.00,vendas=0.00
+		real salario_fixo=0.00, salario_final=0.00, vendas=0.00
 		real comissao=0.00
 		const real TAXA=0.04
 
@@ -15,12 +16,13 @@ programa
 		leia(salario_fixo)
 		escreva("Insira o valor das vendas do funcionário:R$ ")
 		leia(vendas)
+		limpa()
 
 		comissao=vendas*TAXA
 		salario_final=salario_fixo+comissao
 
-		escreva("A comissão do funcionário é de ",mat.arredondar(comissao,2),"\n")
-		escreva("O salário do funcionário é de ",mat.arredondar(salario_final,2),"\n")
+		escreva("A comissão do funcionário é de "+mat.arredondar(comissao,2)+"\n")
+		escreva("O salário do funcionário é de "+mat.arredondar(salario_final,2)+"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 

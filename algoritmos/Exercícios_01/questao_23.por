@@ -14,6 +14,7 @@ programa
 		leia(angulo1)
 		escreva("Digite o valor, em graus, do 2º ângulo: ")
 		leia(angulo2)
+		limpa()
 
 		angulo3 = SOMA_ANGULOS-(angulo1+angulo2)
 

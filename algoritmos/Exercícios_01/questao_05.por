@@ -4,6 +4,7 @@ programa
 	//que este sofreu um desconto de 10%.
 
 	inclua biblioteca Matematica --> mat
+
 	funcao inicio()
 	{
 		real preco=0.00
@@ -12,10 +13,11 @@ programa
 
 		escreva("Insira o preço do produto:R$ ")
 		leia(preco)
+		limpa()
 
 		novo_preco=preco*(1-DESCONTO)
 
-		escreva("O novo preço do produto é: ",mat.arredondar(novo_preco,2)"\n")
+		escreva("O novo preço do produto é: "+mat.arredondar(novo_preco,2)+"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 

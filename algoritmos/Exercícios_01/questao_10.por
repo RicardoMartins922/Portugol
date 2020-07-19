@@ -1,24 +1,20 @@
 programa
 {
-	//Faça um programa que calcule e mostre a área de um trapézio.
-	//Sabe-se que: A = ((base maior + base menor) * altura)/2
+	//Faça um programa que calcule e mostre a área de um quadrado.
+	//Sabe-se que: A = lado*lado
 
-	
 	funcao inicio()
 	{
-		real base_maior=0.00,base_menor=0.00,altura=0.00
+		real lado=0.00
 		real area=0.00
 
-		escreva("Insira o tamanho da base maior: ")
-		leia(base_maior)
-		escreva("Insira o tamanho da base menor: ")
-		leia(base_menor)
-		escreva("Insira a altura do trapézio: ")
-		leia(altura)
+		escreva("Insira o valor do lado: ")
+		leia(lado)
+		limpa()
 
-		area=((base_maior+base_menor)*altura)/2.00
+		area = lado*lado
 
-		escreva("A área do trapézio é: ",area,"\n")
+		escreva("A área do quadrado é: "+area+"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
